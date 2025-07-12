@@ -10,6 +10,73 @@ public class Main {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
+            var dog = 8;
+            System.out.println (dog);
+            var cat = 3.6;
+            System.out.println (cat);
+            var paper = 763789;
+            System.out.println (paper);
+
+            dog = dog + 4;
+            System.out.println (dog);
+            cat = cat + 4;
+            System.out.println (cat);
+            paper = paper + 4;
+            System.out.println (paper);
+
+            dog = (int) (dog - 3.5);
+            System.out.println (dog);
+            cat = 3.6;
+            cat = cat - 1.6;
+            System.out.println (cat);
+            paper = (int) 763789.0;
+            paper = paper - 7639;
+            System.out.println (paper);
+
+            var friend = 19;
+            System.out.println (friend);
+            friend = friend + 2;
+            System.out.println (friend);
+            friend = friend / 7;
+            System.out.println (friend);
+
+            var frog = 3.5;
+            System.out.println (frog);
+            frog = frog * 10;
+            System.out.println (frog);
+            frog = frog / 3.5;
+            System.out.println (frog);
+            frog = frog + 4;
+            System.out.println (frog);
+
+            var firstBoxer = 78.2;
+            var secondsBoxer = 82.7;
+            var totalBoxers = firstBoxer +  secondsBoxer;
+            System.out.println (totalBoxers);
+            var difference = secondsBoxer - firstBoxer;
+            System.out.println (difference);
+
+
+            totalBoxers = secondsBoxer % firstBoxer;
+            System.out.println(totalBoxers);
+
+            var totalHours = 640;
+            var oneEmployee = 8;
+            var totalEmployee = totalHours / oneEmployee;
+            System.out.println ("Всего работников в компании " + totalEmployee +  "человек.");
+            totalEmployee = totalEmployee + 94;
+            totalHours = totalEmployee * 8;
+            System.out.println ("Если в компании работает" + totalEmployee + "человек");
+            System.out.println ("то всего" + totalHours + "часов работы может быть поделено между сотрудниками.");
+
+
+
+
+
+
+
+
+
         }
     }
 }
